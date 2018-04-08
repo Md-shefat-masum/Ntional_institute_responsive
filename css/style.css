@@ -1,0 +1,451 @@
+/*font sizes start*/
+
+p {
+    font-size: 13px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+    color: #215a6d;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 22px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+/*font sizes end*/
+
+/*header part start*/
+
+#headerContent {
+    padding-top: 13px;
+    padding-bottom: 30px;
+}
+
+#headerContent .logo {}
+
+#headerContent .leftHeading h5 {
+    color: #6cb8b8;
+    line-height: 78px;
+}
+
+#headerContent .rightPhoneNO h5 {
+    color: red;
+    line-height: 78px;
+}
+
+/*header part end*/
+
+/*nav bar start*/
+
+#navPart {
+    background: red;
+    text-transform: capitalize;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #331818;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+/*social icon part*/
+
+.socialIcons {
+    padding: 15px 0px;
+    float: right;
+}
+
+.socialIcons li {
+    float: left;
+    margin-left: 5px;
+}
+
+.socialIcons li a {
+    height: 27px;
+    width: 27px;
+    background: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.socialIcons li a i {
+    font-size: 13px;
+    color: red;
+}
+
+
+/*nav bar end*/
+
+/*banner part start*/
+
+.bannerImg {
+    position: relative;
+}
+
+.bannerContent {
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+    text-align: left;
+}
+
+.bannerContent h2 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #2f6273;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.bannerContent h1 {
+    font-style: italic;
+    color: #215a6d;
+    padding-bottom: 32px;
+    text-align: left;
+}
+
+.bannerContent p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #215a6d;
+    padding-bottom: 45px;
+}
+
+.bannerContent a {
+    font: 16px;
+    display: inline-block;
+    line-height: 25px;
+    padding: 10px 30px;
+    ;
+    border-radius: 35px;
+    background: #92c7a3;
+    color: white;
+    text-transform: capitalize;
+}
+
+/*banner part end*/
+
+/*learn about part start*/
+
+#LearnAboutPart {
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+#LearnAboutPart .learnAboutBody {
+    padding-bottom: 80px;
+}
+
+#LearnAboutPart .learnAboutBody h3 {
+    color: #3ca2a2;
+    line-height: 45px;
+}
+
+#LearnAboutPart .learnAboutBody .learnAboutImg {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#LearnAboutPart .learnAboutBody .learnAboutImg img {}
+
+#LearnAboutPart .learnAboutBody p {
+    color: #215a6d;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 15px 20px 25px;
+    ;
+}
+
+#LearnAboutPart .learnAboutBody a {
+    font-size: 14px;
+    color: #92c7a3;
+    text-transform: capitalize;
+    line-height: 20px;
+}
+
+#LearnAboutPart .learnAboutBody a i {
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    font-size: 9px;
+    height: 12px;
+    width: 12px;
+    line-height: 12px;
+    margin-right: 5px;
+}
+
+/*learn about part start*/
+
+/*Notice board part start*/
+
+#NoticePart {
+    background: #dfece6;
+    padding-bottom: 30px;
+}
+
+.commonHeading {
+    padding-top: 30px;
+}
+
+.commonHeading .underLine {
+    height: 2px;
+    background-color: white;
+    width: 100%;
+    background-image: url(../images/headingBottomLine.png);
+    background-repeat: no-repeat;
+}
+
+#NoticePart .noticelists {
+    margin: 30px 0px 25px;
+}
+
+#NoticePart .noticelists li {
+    width: 100%;
+    border-bottom: 1px solid #3ca2a2;
+}
+
+#NoticePart .noticelists li a {
+    color: #3ca2a2;
+    font-size: 16px;
+    line-height: 42px;
+}
+
+#NoticePart .noticelists li a i {
+    color: white;
+    text-align: center;
+    height: 42px;
+    width: 42px;
+    background: red;
+    line-height: 42px;
+    float: right;
+}
+
+
+
+/*common link*/
+
+.commonlink {
+    font-size: 14px;
+    color: red;
+    text-transform: capitalize;
+    line-height: 20px;
+}
+
+.commonlink i {
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    font-size: 9px;
+    height: 13px;
+    width: 13px;
+    line-height: 12px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+/*right video part*/
+
+.rightVideo {}
+
+.rightVideo .video {
+    margin-top: 30px;
+    height: 212px;
+    background: white;
+    border: 10px solid white;
+
+}
+
+/*Notice board part end*/
+
+/*News and events part start*/
+
+#NewsAndEvents {}
+
+#NewsAndEvents .newsContents {}
+
+#NewsAndEvents .underLine {
+    background-color: rgba(128, 128, 128, 0.26);
+}
+
+#NewsAndEvents .newsContents h6 {
+    color: #70bbbb;
+    line-height: 42px;
+    margin-top: 15px;
+}
+
+#NewsAndEvents .newsContents p {
+    color: #215a6d;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.newsContents {
+    position: relative;
+    margin-bottom: 59px;
+}
+
+
+#NewsAndEvents .newsContents span:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    margin-top: 5px;
+    background-color: rgba(128, 128, 128, 0.26);
+}
+
+/*medical services*/
+
+#NewsAndEvents .ServiceLists {
+    padding-top: 30px;
+    margin-bottom: 70px;
+}
+
+#NewsAndEvents .ServiceLists li {}
+
+#NewsAndEvents .ServiceLists li a i {
+    color: red;
+    font-size: 13px;
+    line-height: 29px;
+}
+
+#NewsAndEvents .ServiceLists li a {
+    color: #215a6d;
+    font-size: 13px;
+    line-height: 29px;
+}
+
+/*Gallery part */
+
+.GalleryPart {
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.galleryMarginBottom {
+    margin-bottom: 10px;
+}
+
+/*News and events part end*/
+
+/*our doctors part start*/
+
+#OurDoctors {
+    padding-bottom: 98px;
+}
+
+#OurDoctors .commonHeading .underLine {
+
+    background-color: rgba(78, 78, 78, 0.21);
+}
+
+#OurDoctors .doctorContens {
+    margin-top: 30px;
+}
+
+#OurDoctors .doctorContens .doctorImg {
+    width: 301px;
+    border: 2px solid #dfece6;
+}
+
+#OurDoctors .doctorContens .doctorImg img {
+    display: block;
+}
+
+#OurDoctors .doctorContens h5 {
+    color: #3ca2a2;
+    margin-top: 15px;
+}
+
+#OurDoctors .doctorContens h6 {
+    color: #878787;
+    font-size: 14px;
+}
+
+#OurDoctors .doctorContens .red {
+    color: red;
+    font-size: 13px;
+}
+
+/*our doctors part end*/
+
+/*foooter start*/
+
+#footerContent {
+    background-color: #222222;
+    padding-top: 30px;
+}
+
+#footerContent h5 {
+    font-size: 25px;
+    line-height: 49px;
+    color: #3ca2a2;
+    text-transform: capitalize
+}
+
+#footerContent h6 {
+    color: #3ca2a2;
+    font-size: 18px;
+    line-height: 42px;
+    text-transform: capitalize;
+}
+
+#footerContent .ftContent {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#footerContent ul {}
+
+#footerContent ul li {}
+
+#footerContent ul li a {
+    color: #c6ded9;
+    font-size: 12px;
+    line-height: 28px;
+}
+
+#footerContent ul li a i {
+    font-size: 12px;
+    line-height: 28px;
+    color: red;
+}
+
+/*bottom*/
+
+.bottom {
+    background: red;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+    ;
+}
+
+/*foooter end*/

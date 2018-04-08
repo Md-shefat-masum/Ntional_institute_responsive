@@ -1,0 +1,385 @@
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (min-width: 320px) and (max-width: 575px) {
+    /*    header part*/
+    #headerContent {
+        padding-bottom: 15px;
+    }
+    #headerContent .logo {
+        width: 35px;
+    }
+    #headerContent .logo img {
+        overflow: hidden;
+        padding: 0;
+        height: 40px;
+        width: 40px;
+    }
+    #headerContent .leftHeading h5 {
+        line-height: 15px;
+        font-size: 12px;
+    }
+    #headerContent .rightPhoneNO h5 {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    /*    nav part */
+    .nav-link {
+        display: block;
+        /* padding: 0.5rem 0rem; */
+        padding: 5px;
+        text-align: center;
+        font-size: 13px;
+    }
+    /*    banner part*/
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        width: 13px;
+    }
+    .carousel-indicators li {
+        width: 13px;
+    }
+
+    /*    learn about section*/
+    #LearnAboutPart {
+        padding-top: 15px;
+    }
+    #LearnAboutPart .learnAboutBody {
+        padding-bottom: 20px;
+    }
+    #LearnAboutPart .learnAboutBody h3 {
+        font-size: 20px;
+    }
+    #LearnAboutPart .learnAboutBody p {
+        padding-bottom: 13px;
+    }
+
+    /*    notice board section*/
+    #NoticePart .noticelists li a {
+        font-size: 14px;
+    }
+
+    /*    News and events*/
+    .newsContents {
+        margin-bottom: 0px;
+    }
+
+    #NewsAndEvents .ServiceLists {
+        margin-bottom: 20px;
+    }
+
+    #NewsAndEvents .GalleryPart {
+        margin-bottom: 20px;
+    }
+
+    /*    our doctor part*/
+    #OurDoctors .doctorContens {
+        text-align: center;
+    }
+
+    #OurDoctors .doctorContens h5 {
+        font-size: 17px;
+        display: block;
+    }
+    #OurDoctors .doctorContens h6 {
+        display: block;
+        font-size: 13px;
+    }
+    #OurDoctors .doctorContens .red {
+        display: block;
+        font-size: 13px;
+    }
+    #OurDoctors .doctorContens .doctorImg {
+        margin: 0 auto;
+    }
+    #OurDoctors {
+        padding-bottom: 30px;
+    }
+
+    /*    footer part */
+    #footerContent {
+        text-align: center;
+    }
+    #footerContent .footerLogo {
+        width: 80px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    #footerContent h5 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    #footerContent .ftContent {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #footerContent .ftContent ul li a {
+        font-size: 14px;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 575px) and (max-width: 768px) {
+
+    #headerContent {
+        padding-bottom: 15px;
+    }
+    #headerContent .logo {
+        width: 35px;
+    }
+
+    #headerContent .leftHeading h5 {
+        line-height: 17px;
+        font-size: 13px;
+    }
+    #headerContent .rightPhoneNO h5 {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    /*    nav part */
+    .nav-link {
+        display: block;
+        /* padding: 0.5rem 0rem; */
+        padding: 5px;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    /*    banner content*/
+    /*    learn about section*/
+    #LearnAboutPart {
+        padding-top: 15px;
+    }
+    #LearnAboutPart .learnAboutBody {
+        padding-bottom: 20px;
+    }
+    #LearnAboutPart .learnAboutBody h3 {
+        font-size: 20px;
+    }
+    #LearnAboutPart .learnAboutBody p {
+        padding-bottom: 13px;
+    }
+    /*    News and events*/
+    .newsContents {
+        margin-bottom: 0px;
+    }
+
+    #NewsAndEvents .ServiceLists {
+        margin-bottom: 20px;
+    }
+
+    #NewsAndEvents .GalleryPart {
+        margin-bottom: 20px;
+    }
+
+    /*    our doctor part*/
+    #OurDoctors .doctorContens {
+        text-align: center;
+    }
+    #OurDoctors .doctorContens h5 {
+        font-size: 17px;
+        display: block;
+    }
+    #OurDoctors .doctorContens h6 {
+        display: block;
+        font-size: 13px;
+    }
+    #OurDoctors .doctorContens .red {
+        display: block;
+        font-size: 13px;
+    }
+    #OurDoctors .doctorContens .doctorImg {
+        margin: 0 auto;
+    }
+    #OurDoctors {
+        padding-bottom: 30px;
+    }
+
+    /*    footer part */
+    #footerContent {
+        text-align: center;
+    }
+    #footerContent .footerLogo {
+        width: 80px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    #footerContent h5 {
+        font-size: 18px;
+        line-height: 70px;
+    }
+
+    #footerContent .ftContent {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #footerContent .ftContent ul li a {
+        font-size: 14px;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 769px) and (max-width: 991px) {
+    #headerContent {
+        padding-bottom: 15px;
+    }
+    #headerContent .leftHeading h5 {
+        line-height: 48px;
+        font-size: 19px;
+    }
+    #headerContent .rightPhoneNO h5 {
+        font-size: 19px;
+        line-height: 48px;
+    }
+
+    #headerContent .leftHeading h5 {
+        line-height: 48px;
+        font-size: 14px;
+    }
+    #headerContent .rightPhoneNO h5 {
+        font-size: 19px;
+        line-height: 48px;
+    }
+
+    /*    nav part */
+    .nav-link {
+        display: block;
+        /* padding: 0.5rem 0rem; */
+        padding: 5px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    /*    banner content*/
+    .bannerContent {
+        position: absolute;
+        left: 0;
+        bottom: 18px;
+        text-align: left;
+    }
+    .bannerContent h2 {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+    .bannerContent h1 {
+        font-size: 30px;
+        padding-bottom: 4px;
+    }
+
+    .bannerContent p {
+        font-size: 14px;
+        padding-bottom: 25px;
+    }
+
+    .carousel-control-next {
+        right: -35px;
+    }
+
+    .carousel-control-prev {
+        left: -40px;
+    }
+
+    /*    learn about section*/
+    #LearnAboutPart {
+        padding-top: 15px;
+    }
+    #LearnAboutPart .learnAboutBody {
+        padding-bottom: 20px;
+    }
+    #LearnAboutPart .learnAboutBody h3 {
+        font-size: 17px;
+    }
+    #LearnAboutPart .learnAboutBody p {
+        padding-bottom: 13px;
+    }
+
+    /*    News and events*/
+    #NewsAndEvents h3 {
+        font-size: 20px;
+    }
+    #NewsAndEvents h6 {
+        font-size: 15px;
+    }
+    .newsContents {
+        margin-bottom: 0px;
+    }
+
+    #NewsAndEvents .ServiceLists {
+        margin-bottom: 80px;
+        padding-top: 20px;
+    }
+
+    #NewsAndEvents .GalleryPart {
+        margin-bottom: 120px;
+    }
+
+    /*    our doctor part*/
+    #OurDoctors .doctorContens {
+        text-align: center;
+    }
+    #OurDoctors .doctorContens .doctorImg {
+        margin: 0 auto;
+    }
+    #OurDoctors {
+        padding-bottom: 30px;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    #headerContent .leftHeading h5 {
+        line-height: 61px;
+        font-size: 19px;
+    }
+    #headerContent .rightPhoneNO h5 {
+        font-size: 19px;
+        line-height: 61px;
+    }
+
+    /*    banner content*/
+    .bannerContent {
+        position: absolute;
+        left: 0;
+        bottom: 30px;
+        text-align: left;
+    }
+    .bannerContent h2 {
+        font-size: 30px;
+    }
+    .bannerContent h1 {
+        font-size: 41px;
+        padding-bottom: 18px;
+    }
+
+    .bannerContent p {
+        font-size: 14px;
+        padding-bottom: 42px;
+    }
+    .carousel-control-next {
+        right: -60px;
+    }
+
+    .carousel-control-prev {
+        left: -60px;
+    }
+
+    /*    news and event */
+    .newsContents {
+        margin-bottom: 0px;
+    }
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
